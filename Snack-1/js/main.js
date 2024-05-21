@@ -3,6 +3,7 @@ console.log('Mi gente')
 
 
 const bici = [
+    /*
      {
         nome: 'bici 1',
         peso: 25 ,
@@ -32,16 +33,12 @@ const bici = [
         nome: 'bici 5',
         peso: 21,
      },
+     */
 
 
 ]
 
-
-
-if (bici.length) {
-    let pesoLeggero = bici[0].peso;
-
-
+let pesoLeggero = Number.MAX_SAFE_INTEGER
 
 for(let i = 0; i < bici.length; i++){
 
@@ -68,9 +65,6 @@ for(let i = 0; i < bici.length; i++){
 }
 
 console.log(biciLeggere)
-}  else {
-    console.log('non ci sono bici in elenco')
-}
 
 
 
